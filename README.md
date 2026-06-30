@@ -1,7 +1,7 @@
 # Bypassing-Legacy-system-incompatibilities-with-Syslog-to-Wazuh
 Metasploitable uses a very old version of Ubuntu. To keep all alert data central to the Wazuh Dashboard we are going to use Syslog.
 
-Built a home lab to demonstrate how you can still utilize Wazuh for legacy systems. Three VMs on a VirtualBox NAT Network called KaliLab - no internet access, fully isolated and VMs can all communicate with each other.
+Built a home lab to demonstrate how you can still utilize Wazuh for legacy systems. Three VMs on a VirtualBox NAT Network called KaliLab - internet access, and VMs can all communicate with each other.
 
 Machines:
   Defender        Ubuntu 26       Wazuh Manager        10.0.2.3
